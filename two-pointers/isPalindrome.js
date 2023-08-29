@@ -1,4 +1,4 @@
-// check if a string is a palindrome
+// LeetCode 125 Valid Palindrome
 export default function isPalindrome(str) {
   // edge case
   if (str.length === 0) return false;
