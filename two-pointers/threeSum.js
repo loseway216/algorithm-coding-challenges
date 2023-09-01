@@ -1,4 +1,4 @@
-// LeetCode 15 Sum of Three Values
+// https://leetcode.com/problems/3sum/
 export default function threeSum(nums) {
   // edge case
   if (nums.length < 3) return [];

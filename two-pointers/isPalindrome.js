@@ -1,4 +1,4 @@
-// LeetCode 125 Valid Palindrome
+// https://leetcode.com/problems/valid-palindrome/
 export default function isPalindrome(str) {
   // edge case
   if (str.length === 0) return false;

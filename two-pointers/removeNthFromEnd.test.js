@@ -1,3 +1,4 @@
+import ListNode from "../utils/ListNode";
 import removeNthFromEnd from "./removeNthFromEnd";
 
 describe("removeNthFromEnd", () => {
@@ -25,8 +26,3 @@ describe("removeNthFromEnd", () => {
     );
   });
 });
-
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val;
-  this.next = next === undefined ? null : next;
-}

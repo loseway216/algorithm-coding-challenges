@@ -1,4 +1,4 @@
-// LeetCode 75 Sort Colors
+// https://leetcode.com/problems/sort-colors/
 export default function sortColors(nums) {
   // edge case
   if (nums.length === 0) return [];
