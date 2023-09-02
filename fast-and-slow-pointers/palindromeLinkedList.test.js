@@ -1,4 +1,4 @@
-import ListNode from "../in-place-reversal-of-linked-list/ListNode";
+import ListNode from "../utils/ListNode";
 import palindromeLinkedList from "./palindromeLinkedList";
 
 describe("palindromeLinkedList", () => {

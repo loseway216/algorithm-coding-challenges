@@ -1,4 +1,4 @@
-import ListNode from "../in-place-reversal-of-linked-list/ListNode";
+import ListNode from "../utils/ListNode";
 import getMiddleNode from "./getMiddleNode";
 
 describe("find the middle node of a linked list", () => {
