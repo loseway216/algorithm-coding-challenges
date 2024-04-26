@@ -10,6 +10,7 @@ algorithms of different patterns in JavaScript
 - [Remove Nth Node From End of List](./two-pointers/removeNthFromEnd.js)
 - [Sort Colors](./two-pointers/sortColors.js)
 - [Reverse Words in a String](./two-pointers/reverseWords.js)
+- [Compare Version Numbers](./two-pointers/compareVersion.js)
 
 ## Fast and Slow Pointers
 
@@ -100,6 +101,7 @@ algorithms of different patterns in JavaScript
 
 ## Dynamic Programming
 
+- [Maximum Subarray](./dynamic-programming/maxSubArray.js)
 - [Longest Common Subsequence](./dynamic-programming/longestCommonSubsequence.js)
 - [Climbing Stairs](./dynamic-programming/climbStairs.js)]
 - [0/1 Knapsack](./dynamic-programming/knapsack.js)
@@ -165,6 +167,7 @@ algorithms of different patterns in JavaScript
 
 ## Hash Map
 
+- [Two Sum](./hash-map/twoSum.js)
 - [Longest Substring Without Repeating Characters](./hash-map/lengthOfLongestSubstring.js)
 - [Longest Palindrome](./hash-map/longestPalindrome.js)
 - [Isomorphic Strings](./hash-map/isIsomorphic.js)

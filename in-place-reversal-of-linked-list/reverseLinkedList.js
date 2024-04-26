@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/reverse-linked-list/
-export default function reverseLinkedList(head) {
+export default function reverseLinkedListIterative(head) {
   // edge case
   if (head === null || head.next === null) return head;
 
@@ -15,4 +15,14 @@ export default function reverseLinkedList(head) {
   }
 
   return previous;
+}
+
+export function reverseLinkedListRecursive(head) {
+  // edge case
+  if (head === null || head.next === null) return head;
+
+  const reversedList = reverseLinkedListRecursive(head.next);
+  head.next.next = head;
+  head.next = null;
+  return reversedList;
 }
